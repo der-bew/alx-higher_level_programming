@@ -6,8 +6,7 @@ def multiple_returns(sentence):
     Function that returns a tuple with the length of a string and its
     first character
     '''
-    my_tuple = tuple(sentence)
-    if len(my_tuple) == 0:
-        return (len(my_tuple), None)
+    if len(sentence) == 0:
+        return len(sentence), None
     else:
-        return (len(my_tuple), my_tuple[0])
+        return len(sentence), sentence[0]
