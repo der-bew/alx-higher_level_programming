@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
-    """ Retrieves an element from a list
-    If idx is negative, the function should return None
-    If idx is out of range (> of number of element in my_list),
-    the function should return None
-    You are not allowed to import any module
+    """ INPUT:
+          my_list: input list
+          idx: Index number of the retrieve element
+        RETURN:
+           None or element
+    Retrieves an element from a list
     """
 
     if idx < 0 or idx >= len(my_list):
