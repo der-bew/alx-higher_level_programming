@@ -7,6 +7,6 @@ def multiple_returns(sentence):
     first character
     '''
     if len(sentence) == 0:
-        return len(sentence), None
+        return None
     else:
         return len(sentence), sentence[0]
