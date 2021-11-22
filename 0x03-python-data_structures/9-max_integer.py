@@ -9,7 +9,7 @@ def max_integer(my_list=[]):
     Function that finds the biggest integer of a list
     '''
     if my_list:
-        max = 0
+        max = my_list[0]
         for elm in my_list:
             if elm > max:
                 max = elm
