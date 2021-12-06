@@ -6,5 +6,5 @@ def safe_print_list(my_list=[], x=0):
             print("{}".format(i), end="")
         print("")
         return (i)
-    except Exception as ex:
-        return (ex)
+    except IndexError as e:
+        print("You used large Index number", e)
