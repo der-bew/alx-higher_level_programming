@@ -40,7 +40,8 @@ All your answers should be only one line in a file. No space before or after the
 
 
 ## Requirements
-** Python Scripts **
+
+**Python Scripts**
 
    - Allowed editors: `vi`, `vim`, `emacs`
    - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -51,7 +52,7 @@ All your answers should be only one line in a file. No space before or after the
    - All your files must be executable
    - The length of your files will be tested using `wc`
 
-** `.txt` Answer Files**
+**`.txt` Answer Files**
 
    - Only one line
    - No Shebang
