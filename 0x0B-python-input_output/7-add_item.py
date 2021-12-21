@@ -13,7 +13,5 @@ try:
     json_list = load_from_json_file(filename)
 except:
     json_list = []
-
 joson_list = [arg for arg in argv[1:]]
-
 save_to_json_file(json_list, filename)
