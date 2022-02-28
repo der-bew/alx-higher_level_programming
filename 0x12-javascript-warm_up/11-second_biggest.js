@@ -6,5 +6,5 @@ if (arr.length > 1) {
   const n = arr[arr.length - 2];
   console.log(n);
 } else {
-  console.log('0');
+  console.log(0);
 }
