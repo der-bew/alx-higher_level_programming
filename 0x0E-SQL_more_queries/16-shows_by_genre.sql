@@ -9,6 +9,6 @@ SELECT ts.title, tg.name
    FROM tv_shows AS ts
    LEFT JOIN tv_show_genres AS tsg
    ON tsg.show_id = ts.id
-   INNER JOIN tv_genres AS tg
+   LEFT JOIN tv_genres AS tg
    ON tg.id = tsg.genre_id;
    ORDER BY 1, 2;
