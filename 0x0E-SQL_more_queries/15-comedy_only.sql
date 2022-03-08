@@ -11,5 +11,5 @@ SELECT ts.title
    ON tsg.show_id = ts.id
    INNER JOIN tv_genres AS tg
    ON tg.id = tsg.genre_id
-   WHERE tg.genre = 'Comedy'
+   WHERE tg.name = "Comedy"
    ORDER BY ts.title;
