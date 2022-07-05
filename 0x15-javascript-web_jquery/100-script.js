@@ -1,4 +1,5 @@
-window.addEventListener('DOMContentLoaded', function () {
-  const header = document.querySelector('HEADER');
-  header.style.color = '#FF0000';
-});
+(function () {
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('header').style.color = '#FF0000';
+  }, false);
+})();
